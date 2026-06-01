@@ -301,3 +301,32 @@ article.post .related-articles a {
   .hero .lead { font-size: 1rem; }
   article.post h1 { font-size: 1.65rem; }
 }
+
+/* iOS optimizations */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .site-footer { padding-bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  .site-header { padding-top: calc(1.25rem + env(safe-area-inset-top)); }
+}
+
+/* iOS-friendly touch targets (minimum 44px) */
+.btn { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+.site-header nav a { min-height: 44px; display: inline-flex; align-items: center; }
+.post-list a { min-height: 44px; }
+.footer-nav a { min-height: 44px; display: inline-flex; align-items: center; }
+
+/* Prevent iOS text size adjustment */
+html { -webkit-text-size-adjust: 100%; }
+
+/* Smooth scrolling for iOS */
+.screenshots-scroll { -webkit-overflow-scrolling: touch; }
+
+/* iOS platform badge */
+.ios-badge-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.75rem;
+}
+.ios-badge-text svg { opacity: 0.7; }
