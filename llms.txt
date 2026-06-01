@@ -4,14 +4,17 @@
 
 ## About
 
-DELE B1 Practice is a mobile app that helps candidates prepare for the DELE B1 (Diploma de Español como Lengua Extranjera, level B1) exam. It provides complete mock exams in the official Instituto Cervantes format with real audio, detailed explanations, and progress tracking.
+DELE B1 Practice is a mobile app that helps candidates prepare for the DELE B1 (Diploma de Español como Lengua Extranjera, level B1) exam. It provides 7 complete mock exams in the official Instituto Cervantes format with real audio, AI-powered writing correction, detailed explanations, and progress tracking.
 
 ## Key Facts
 
 - Platform: iOS only (App Store)
 - Level: B1 (intermediate) per the Common European Framework of Reference (CEFR)
-- Content: Full mock exams covering reading, listening, writing, and speaking
-- Audio: Professional recordings with varied voices
+- Content: 7 full mock exams covering reading, listening, writing, and speaking
+- Audio: Professional recordings with native speakers
+- Writing: Free-form text input with AI scoring and correction
+- Progress: Results tracking by section and task
+- Practice modes: Daily quick practice + section-specific practice
 - Interface languages: 12 (English, Spanish, French, German, Portuguese, Brazilian Portuguese, Italian, Chinese, Japanese, Korean, Arabic, Russian)
 - Pricing: First exam free, subscription for full access
 - Developer: Independent (not affiliated with Instituto Cervantes)
