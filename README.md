@@ -30,7 +30,7 @@ Static marketing website for the DELE B1 Practice iOS app.
 ## Setup
 
 1. Replace `G-XXXXXXXXXX` with your actual GA4 Measurement ID in all HTML files
-2. Replace `id0000000000` with the actual App Store app ID once published
+2. Replace `id6772564355` with the actual App Store app ID once published
 3. Add an `og-image.png` (1200×630) for social sharing
 
 ## Deployment

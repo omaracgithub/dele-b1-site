@@ -1,7 +1,7 @@
 // Routes the main download CTA to the App Store.
 // Shows a note for non-iOS visitors.
 (function () {
-  var iosUrl = "https://apps.apple.com/app/dele-b1-practice/id0000000000";
+  var iosUrl = "https://apps.apple.com/app/dele-b1-practice/id6772564355";
   var cta = document.getElementById("cta-download");
   if (cta) cta.href = iosUrl;
 
